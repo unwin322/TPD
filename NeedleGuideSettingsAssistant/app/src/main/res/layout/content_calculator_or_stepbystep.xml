@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/StepbyStepAssistant"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/CalculatorDes"
+        android:layout_marginTop="38dp"
+        android:text="Step by Step Assistant" />
+
+    <Button
+        android:id="@+id/CalculatorSelect1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CalculatorDes"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Calculator" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/SelectProcessText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Select Calculator or Step by Step Assistant Guide"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/CalculatorDes"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Calculator directly determines the correct parameters with no assistence. For users familiar with the needle guide system"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/SbSDes"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/StepbyStepAssistant"
+        android:text="The Step By Step assistant gives the user additional guidance in using the relevent needle guide"
+        android:textAlignment="center" />
+
+</RelativeLayout>

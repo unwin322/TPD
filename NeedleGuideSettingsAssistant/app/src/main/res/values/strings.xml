@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Needle Guide Settings Assistant</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_moving_scale_assistant">Moving Scale Assistant</string>
+    <string name="title_activity_fixed_scale_assistant">Fixed Scale Assistant</string>
+    <string name="title_activity_epidural_assistant">Epidural Assistant</string>
+    <string name="title_activity_key_system_assistant">Key System Assistant</string>
+</resources>
