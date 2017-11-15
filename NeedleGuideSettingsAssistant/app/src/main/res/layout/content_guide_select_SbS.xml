@@ -10,87 +10,48 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.loughbroughproject.needleguidesettingsassistant.GuideSelect"
-    tools:showIn="@layout/activity_guide_select">
+    tools:context="com.loughbroughproject.needleguidesettingsassistant.GuideSelect" >
 
-    <Button
-        android:id="@+id/MovingScaleSelectSbS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/FixedScaleSelect"
-        android:layout_marginTop="12dp"
-        android:onClick="MovingScale"
-        android:text="Moving Scale" />
-
-    <Button
-        android:id="@+id/EpiduralSelectSbS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/PrePunctureLabel"
-        android:layout_marginTop="16dp"
-        android:onClick="Epidural"
-        android:text="Epidural" />
-
-    <Button
-        android:id="@+id/FixedScaleSelectSbS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/RealTimeLabel"
-        android:layout_marginTop="16dp"
-        android:fontFamily="sans-serif-medium"
-        android:onClick="FixedScale"
-        android:text="Fixed Scale" />
-
-    <Button
-        android:id="@+id/KeySelectSbS"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/EpiduralSelect"
-        android:layout_marginTop="15dp"
-        android:onClick="KeySystem"
-        android:text="Key System" />
 
     <TextView
-        android:text="Pre-Puncture Guides"
+        android:id="@+id/selectneedletext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="54dp"
-        android:id="@+id/PrePunctureLabel"
-        android:textSize="18sp"
-        android:layout_below="@+id/MovingScaleSelect"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:text="Real Time Guides"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:id="@+id/RealTimeLabel"
-        android:textSize="18sp"
-        android:layout_below="@+id/selectGuideText"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:text="Select Needle Guide Type:"
-        android:id="@+id/selectGuideText"
-        style="@style/headingstyle1" />
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
+    <Button
+        android:id="@+id/realtimebuttonsbs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/selectGuideText"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/selectGuideText"
-        android:layout_marginBottom="71dp"
-        android:text="RadioButton" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:text="Real Time Guide" />
 
+    <Button
+        android:id="@+id/epiduralbuttonsbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/realtimebuttonsbs"
+        android:layout_alignBottom="@+id/realtimebuttonsbs"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="Epidural Guide" />
+
+    <Button
+        android:id="@+id/keysystemsbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Pre-Puncture Guide" />
 </RelativeLayout>

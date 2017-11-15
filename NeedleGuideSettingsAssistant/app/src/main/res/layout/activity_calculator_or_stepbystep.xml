@@ -3,9 +3,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/content_calculator_or_stepbystep"
     android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    tools:context= "com.loughbroughproject.needleguidesettingsassistant.TopLevel">
-
+    android:layout_height="match_parent" >
 
     <Button
         android:id="@+id/StepbyStepAssistant"
@@ -58,7 +56,7 @@
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Calculator directly determines the correct parameters. For users familiar with the needle guide system"
+        android:text="Calculator directly determines the correct parameters. For users familiar with the needle guide system."
         android:textAlignment="center" />
 
     <TextView
@@ -68,8 +66,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/StepbyStepAssistant"
-        android:text="The Step By Step assistant gives the user additional guidance in using the relevent needle guide"
         android:layout_centerHorizontal="true"
+        android:text="The Step By Step assistant gives the user additional guidance in using the needle guides."
         android:textAlignment="center" />
-
-</RelativeLayout>
+    </RelativeLayout>

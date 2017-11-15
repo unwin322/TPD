@@ -1,52 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_guide_select"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.loughbroughproject.needleguidesettingsassistant.GuideSelect" >
+
 
     <TextView
-        android:id="@+id/TargetDepthText"
+        android:id="@+id/bagittext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="What is the target depth?"
-        android:textAlignment="center"
+        android:text="Place probe in sterilisable bag:"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="24sp" />
+        android:textSize="18sp" />
 
     <TextView
-        android:id="@+id/TargetDepthInputText"
+        android:id="@+id/alignprobetext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/InputTargetDepthSbS"
-        android:layout_alignBottom="@+id/InputTargetDepthSbS"
-        android:layout_toLeftOf="@+id/InputTargetDepthSbS"
-        android:layout_toStartOf="@+id/InputTargetDepthSbS"
-        android:text="Target Depth:  "
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Align the needle guide attachement onto the probe:"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="18sp" />
-
-    <EditText
-        android:id="@+id/InputTargetDepthSbS"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonok"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginBottom="22dp"
-        android:ems="10"
-        android:inputType="number"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="18sp" />
-
     <Button
         android:id="@+id/buttonok"
         android:layout_width="match_parent"
@@ -58,6 +45,4 @@
         android:text="        Next"
         android:textAlignment="center"
         android:textSize="18sp" />
-
 </RelativeLayout>
-
