@@ -19,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
         android:text="Place probe in sterilisable bag:"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="18sp" />
@@ -45,4 +46,7 @@
         android:text="        Next"
         android:textAlignment="center"
         android:textSize="18sp" />
+
+
+
 </RelativeLayout>

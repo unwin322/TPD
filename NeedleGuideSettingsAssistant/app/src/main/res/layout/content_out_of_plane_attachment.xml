@@ -13,7 +13,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="58dp"
         android:text="Attach the needle guide to the probe bracket:"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
