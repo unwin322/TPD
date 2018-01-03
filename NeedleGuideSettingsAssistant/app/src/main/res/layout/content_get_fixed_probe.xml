@@ -14,53 +14,92 @@
 
 
     <TextView
-        android:id="@+id/selectprobetext"
+        android:id="@+id/selectthefollowingtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/selectmainbodytext"
-        android:layout_alignBottom="@+id/selectmainbodytext"
-        android:layout_alignEnd="@+id/selectneedlecliptext"
-        android:layout_alignRight="@+id/selectneedlecliptext"
-        android:layout_marginEnd="182dp"
-        android:layout_marginRight="182dp"
-        android:text="1) Select the real time probe attachment "
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="18sp" />
-
-    <TextView
-        android:id="@+id/selectmainbodytext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/selectneedlecliptext"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/selectneedlecliptext"
-        android:layout_marginLeft="176dp"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="168dp"
-        android:text="2) Select the main body attachment"
+        android:layout_centerHorizontal="true"
+        android:text="Select the following attachments:"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/selectneedlecliptext"
+    <ImageView
+        android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/buttonok"
+        android:layout_below="@+id/selectthefollowingtext"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:text="3) Select the correct needle clip size"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="18sp" />
-    <Button
-        android:id="@+id/buttonok"
-        android:layout_width="match_parent"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/bracket_small" />
+
+    <TextView
+        android:id="@+id/probeattachmenttext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:text="Real Time Probe Attachment"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <TextView
+        android:id="@+id/needlegaugecliptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView10"
+        android:layout_alignRight="@+id/imageView10"
+        android:layout_below="@+id/imageView10"
+        android:text="Needle Clip"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/selectthefollowingtext"
+        android:layout_alignRight="@+id/selectthefollowingtext"
+        android:layout_below="@+id/probeattachmenttext"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/needle_gauge_20_small" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView10"
+        android:layout_alignLeft="@+id/selectthefollowingtext"
+        android:layout_alignStart="@+id/selectthefollowingtext"
+        android:layout_marginBottom="27dp"
+        app:srcCompat="@drawable/real_time_just" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView10"
+        android:layout_alignLeft="@+id/imageView11"
+        android:layout_alignStart="@+id/imageView11"
+        android:text="Real Time Needle Guide"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+    <Button
+        android:id="@+id/buttonok"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:drawableRight="@drawable/ic_forward_black_24dp"
         android:text="        Next"
         android:textAlignment="center"

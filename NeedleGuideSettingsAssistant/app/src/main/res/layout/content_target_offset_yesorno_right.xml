@@ -72,12 +72,13 @@
         android:textSize="18sp" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="337dp"
-        android:layout_height="264dp"
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_centerVertical="true"
-        app:srcCompat="@drawable/off_centreline_distance_left" />
+        android:layout_marginBottom="7dp"
+        app:srcCompat="@drawable/off_centreline_distance_right" />
 
 </RelativeLayout>
