@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+
+    <TextView
+        android:id="@+id/FSsbsNeedleLengthout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/FSneedlelengthinsert"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="22dp"
+        android:text="out"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/FSsbsneedlelengthtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/FSsbsNeedleLengthout"
+        android:layout_alignBottom="@+id/FSsbsNeedleLengthout"
+        android:layout_alignStart="@+id/FSneedlelengthinsert"
+        android:text="Needle Length (cm):"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/FSneedlelengthinsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Needle Insertion Length:"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_below="@+id/FSneedlelengthinsert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        app:srcCompat="@drawable/needle_depth" />
+</RelativeLayout>

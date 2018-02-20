@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/realtimebuttonsbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="96dp"
+        android:layout_marginTop="432dp"
+        android:text="Real Time Guide"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="Real_Time_Guide"/>
+
+    <Button
+        android:id="@+id/epiduralbuttonsbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="432dp"
+        android:text="Epidural Guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="Epidural_Guide"/>
+
+    <Button
+        android:id="@+id/keysystemsbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="788dp"
+        android:text="Pre-Puncture Guide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="Pre_Puncture_Guide"/>
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="261dp"
+        android:layout_height="292dp"
+        android:layout_marginBottom="460dp"
+        android:layout_marginStart="36dp"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/epidural_guide"
+        android:onClick="Epidural_Guide"/>
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="254dp"
+        android:layout_height="289dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="136dp"
+        android:scaleType="fitStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fixed_guide"
+        android:onClick="Real_Time_Guide"/>
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="178dp"
+        android:layout_height="295dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="492dp"
+        android:scaleType="fitStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/key_system"
+        android:onClick="Pre_Puncture_Guide"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/select_needle_guide"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

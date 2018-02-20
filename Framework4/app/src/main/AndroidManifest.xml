@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tpdappframework.mahesh.framework4">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Calculator_or_Stepbystep_Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        // Defining the activities of the first click events on the buttons
+        <activity
+            android:name=".Calculator_Menu_Page"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SBS_Menu_Page"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureStep1"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureCalculator"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        // Defining the activities of the next click event on the buttons
+        <activity
+            android:name=".RealTimeCalculator"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeStep1"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralGuideStep1"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralCalculator"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture30Step2"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture45Step2"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture60Step2"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture30FitAttachment"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture45FitAttachment"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture60FitAttachment"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture30InPlaneStep4"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture30OutPlaneStep4"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture45InPlaneStep4"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture45OutPlaneStep4"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture60InPlaneStep4"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePuncture60OutPlaneStep4"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralFitBracketStep4"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralFitGuideAttachmentStep7"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralGetTargetDepthStep5"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralLocatePensStep6"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralNeedleInsertionLengthStep9"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralRelocateGuideStep8"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralFitAttachmentStep2"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EpiduralFitClipOntoBodyStep3"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

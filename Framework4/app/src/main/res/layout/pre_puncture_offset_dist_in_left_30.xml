@@ -15,28 +15,23 @@
         android:id="@+id/targetoffcentretext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="49dp"
         android:text="What is the offset from the centreline of the probe to the target?"
         android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="18sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/targetoffsetdisttext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/buttonok"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="35dp"
-        android:layout_marginStart="35dp"
+        android:layout_marginBottom="28dp"
+        android:layout_toStartOf="@+id/editText"
         android:text="Target Offset:"
-        android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="18sp" />
+        android:textSize="25sp"
+        android:padding="10dp"/>
 
     <EditText
         android:id="@+id/editText"
@@ -44,41 +39,34 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/targetoffsetdisttext"
         android:layout_alignBottom="@+id/targetoffsetdisttext"
-        android:layout_toEndOf="@+id/targetoffsetdisttext"
-        android:layout_toRightOf="@+id/targetoffsetdisttext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="73dp"
+        android:background="@drawable/text_input_1"
         android:ems="7"
         android:hint="Enter Offset (cm)"
-        android:inputType="textPersonName" />
-
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        app:srcCompat="@drawable/ic_home_black_24dp" />
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/buttonok"
-        android:layout_width="250dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:drawableRight="@drawable/ic_forward_black_24dp"
+        android:drawableRight="@drawable/ic_forward_white_24dp"
         android:text="        Next"
         android:textAlignment="center"
         android:textSize="18sp" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="7dp"
-        app:srcCompat="@drawable/off_centreline_distance_right" />
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/probe_centreline_distance_left" />
 
 </RelativeLayout>
