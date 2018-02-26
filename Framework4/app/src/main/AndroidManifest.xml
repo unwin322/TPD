@@ -130,6 +130,268 @@
             android:name=".EpiduralFitClipOntoBodyStep3"
             android:label="@string/title"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeDepthInCentre"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeDepthInLeft"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeDepthInRight"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeDepthOutCentre"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeDepthOutLeft"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeDepthOutRight"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeFitAttachmentStep2"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeFitClipStep3"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeInPlaneAttachGuideStep5"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeInPlaneOutPlaneStep4"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeNeedleInCentre"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeNeedleInLeft"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeNeedleInRight"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeNeedleOutCentre"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeNeedleOutLeft"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeNeedleOutRight"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeOutPlaneAttachGuideStep5"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeSetAngleInCentre"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeSetAngleInLeft"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeSetAngleInRight"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeSetAngleOutCentre"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeSetAngleOutLeft"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeSetAngleOutRight"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeWhereTargetInPlaneStep6"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeOffsetLeft"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RealTimeOffsetRight"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInCentre30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInCentre45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInCentre60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInLeft30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInLeft45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInLeft60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInRight60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInRight30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyInRight45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyOut30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyOut45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureAlignKeyOut60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureMarkSkin30In"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureMarkSkin30Out"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureMarkSkin45In"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureMarkSkin45Out"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureMarkSkin60In"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureMarkSkin60Out"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInCentre30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInCentre45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInCentre60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInLeft30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInLeft45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInLeft60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInRight30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInRight45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthInRight60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthOut30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthOut45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureNeedleLengthOut60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureOffsetLeft30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureOffsetLeft45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureOffsetLeft60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureOffsetRight30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureOffsetRight45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureOffsetRight60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureRelativePos30"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureRelativePos45"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PrePunctureRelativePos60"
+            android:label="@string/title"
+            android:theme="@style/AppTheme" />
+
+
     </application>
 
 </manifest>

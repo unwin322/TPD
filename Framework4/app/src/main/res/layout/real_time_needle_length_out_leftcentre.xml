@@ -8,25 +8,18 @@
     android:paddingTop="16dp">
 
 
-    <TextView
-        android:id="@+id/FSsbsNeedleLengthout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/FSneedlelengthinsert"
-        android:layout_below="@+id/imageView2"
-        android:layout_marginTop="22dp"
-        android:text="out"
-        android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/FSsbsneedlelengthtext"
+        android:id="@+id/depth_out"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/FSsbsNeedleLengthout"
-        android:layout_alignBottom="@+id/FSsbsNeedleLengthout"
-        android:layout_alignStart="@+id/FSneedlelengthinsert"
-        android:text="Needle Length (cm):"
-        android:textSize="30sp" />
+        android:layout_above="@+id/buttonok"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_marginBottom="29dp"
+        android:layout_marginStart="78dp"
+        android:text="@string/needle_length_cm"
+        android:textSize="30sp"
+        />
 
     <TextView
         android:id="@+id/FSneedlelengthinsert"
@@ -57,6 +50,7 @@
         android:drawableRight="@drawable/ic_forward_white_24dp"
         android:text="        Next"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:onClick="gorealtimesetangleoutleft"/>
 
 </RelativeLayout>

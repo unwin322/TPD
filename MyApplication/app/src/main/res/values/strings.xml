@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_name_text_view">Enter User Name</string>
+    <string name="calling_activity_message">The other activity waS</string>
+    <string name="get_the_name_text_view">Get the name</string>
+    <string name="users_name_sent_back">The users name was</string>
+</resources>

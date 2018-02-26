@@ -5,4 +5,6 @@
     <string name="title_activity_fixed_scale_assistant">Fixed Scale Assistant</string>
     <string name="title_activity_epidural_assistant">Epidural Assistant</string>
     <string name="title_activity_key_system_assistant">Key System Assistant</string>
+    <string name="title_activity_target_offset_yes_or_no_r">TargetOffsetYesOrNoR</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

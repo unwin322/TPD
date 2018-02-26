@@ -40,10 +40,11 @@
         android:drawableRight="@drawable/ic_forward_white_24dp"
         android:text="        Next"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:onClick="gorealtimeneedleoutcentre"/>
 
     <EditText
-        android:id="@+id/target_depth_input_fssbs"
+        android:id="@+id/target_depth_input_out_centre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/TargetDepthInputText"

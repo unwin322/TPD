@@ -115,7 +115,7 @@
         android:layout_alignEnd="@+id/imageView19"
         android:layout_alignRight="@+id/imageView19"
         android:layout_below="@+id/imageView19"
-        android:text="Needle Gauge"
+        android:text="Needle Clip"
         android:textAppearance="@style/TextAppearance.AppCompat" />
 
     <TextView

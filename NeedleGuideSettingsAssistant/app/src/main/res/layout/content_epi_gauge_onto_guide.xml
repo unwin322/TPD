@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Fit the gauge onto the guide body:"
+        android:text="Fit the clip onto the guide body:"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="18sp" />
     <Button

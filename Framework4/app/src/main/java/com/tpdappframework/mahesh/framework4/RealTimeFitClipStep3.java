@@ -22,5 +22,9 @@ public class RealTimeFitClipStep3 extends Calculator_or_Stepbystep_Menu {
         Intent getrealtimestep4 = new Intent(this,
                 RealTimeInPlaneOutPlaneStep4.class);
 
+        final int result = 1;
+
+        startActivity(getrealtimestep4);
+
     }
 }

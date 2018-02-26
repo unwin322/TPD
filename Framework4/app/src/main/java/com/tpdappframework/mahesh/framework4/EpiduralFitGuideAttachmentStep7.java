@@ -10,11 +10,17 @@ import android.view.View;
 
 public class EpiduralFitGuideAttachmentStep7 extends Calculator_or_Stepbystep_Menu {
 
+    String EpiDepthJump2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.epidural_fit_guide_attachment_step_7);
+
+        String EpiDepth = getIntent().getStringExtra("EpiDepthJump2");
+
+        EpiDepthJump2 = EpiDepth;
     }
 
 
@@ -23,7 +29,9 @@ public class EpiduralFitGuideAttachmentStep7 extends Calculator_or_Stepbystep_Me
         Intent getrelocateguideonpatient = new Intent(this,
                 EpiduralRelocateGuideStep8.class);
 
-        final int result = 1;
+        getrelocateguideonpatient.putExtra("EpiDepthJump3", EpiDepthJump2);
+
+        setResult(RESULT_OK, getrelocateguideonpatient);
 
         startActivity(getrelocateguideonpatient);
 

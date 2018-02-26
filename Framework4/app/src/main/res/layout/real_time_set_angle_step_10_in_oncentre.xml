@@ -18,7 +18,7 @@
         android:textSize="30sp" />
 
     <TextView
-        android:id="@+id/whatangletext"
+        android:id="@+id/RT_Angle_Centre_Show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView"
@@ -27,16 +27,6 @@
         android:layout_marginTop="33dp"
         android:padding="10dp"
         android:text="Guide Angle (deg):"
-        android:textSize="25sp" />
-
-    <TextView
-        android:id="@+id/angleoutputtext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/whatangletext"
-        android:layout_alignBottom="@+id/whatangletext"
-        android:layout_toEndOf="@+id/whatangletext"
-        android:text="Output"
         android:textSize="25sp" />
 
     <Button

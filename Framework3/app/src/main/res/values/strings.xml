@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Framework3</string>
+    <string name="action_settings">Settings</string>
+    <string name="taskbar_options_exit">Exit</string>
+    <string name="home_button">Home</string>
+    <string name="menu_option_1_text">Enter Name</string>
+    <string name="enter_name_button">Enter</string>
+    <string name="hint_text_1">Info Transferred</string>
+    <string name="get_the_name">Get the Name</string>
+    <string name="users_name_sent_back">The users name was</string>
+</resources>

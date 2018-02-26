@@ -20,7 +20,7 @@ public class RealTimeWhereTargetInPlaneStep6 extends Calculator_or_Stepbystep_Me
     public void gorealtimedepthinleft(View view) {
 
         Intent getrealtimedepthinleft = new Intent(this,
-                RealTimeDepthInLeft.class);
+                RealTimeOffsetLeft.class);
 
         final int result = 1;
 
@@ -30,7 +30,7 @@ public class RealTimeWhereTargetInPlaneStep6 extends Calculator_or_Stepbystep_Me
     public void gorealtimedepthinright(View view) {
 
         Intent getrealtimedepthinright = new Intent(this,
-                RealTimeDepthInRight.class);
+                RealTimeOffsetRight.class);
 
         final int result = 1;
 

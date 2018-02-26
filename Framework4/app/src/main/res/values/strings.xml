@@ -18,4 +18,5 @@
     <string name="toppage_calculator_text">Calculator directly determines the correct parameters. For users familiar with the needle guide system.</string>
     <string name="toppage_sbs_text">The step by step guide gives the user additional guidance in using the needle guides.</string>
     <string name="select_needle_guide">Select Needle Guide Type:</string>
+    <string name="needle_length_cm">Needle Length (cm):</string>
 </resources>

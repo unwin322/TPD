@@ -40,10 +40,11 @@
         android:drawableRight="@drawable/ic_forward_white_24dp"
         android:text="        Next"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:onClick="gorealtimeneedleoutleft"/>
 
     <EditText
-        android:id="@+id/target_depth_input_fssbs"
+        android:id="@+id/target_depth_input_out_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/TargetDepthInputText"
@@ -55,7 +56,7 @@
         android:textColor="@android:color/black"
         android:background="@drawable/text_input_1"
         android:textAlignment="center"
-        android:inputType="numberDecimal"/>
+        android:inputType="numberDecimal" />
 
     <ImageView
         android:id="@+id/imageView9"

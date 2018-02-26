@@ -22,7 +22,7 @@ public class RealTimeInPlaneAttachGuideStep5 extends Calculator_or_Stepbystep_Me
     public void gorealtimewhereistargetstep6(View view) {
 
         Intent getrealtimewhereistargetstep6 = new Intent(this,
-                RealTimeInPlaneAttachGuideStep5.class);
+                RealTimeWhereTargetInPlaneStep6.class);
 
         final int result = 1;
 

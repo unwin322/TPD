@@ -59,7 +59,8 @@
         android:drawableRight="@drawable/ic_forward_white_24dp"
         android:text="        Next"
         android:textAlignment="center"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:onClick="goPPAlignInRight60"/>
 
     <ImageView
         android:id="@+id/imageView12"

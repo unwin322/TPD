@@ -16,7 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageButton3"
         android:layout_toStartOf="@+id/OnCentrelineButton"
-        android:text="Left Of Centreline" />
+        android:text="Left Of Centreline"
+        android:onClick="goPPLeftOffset45"/>
 
     <Button
         android:id="@+id/RightofCentrelineButton"
@@ -24,7 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageButton3"
         android:layout_toEndOf="@+id/OnCentrelineButton"
-        android:text="Right of Centreline" />
+        android:text="Right of Centreline"
+        android:onClick="goPPRightOffset45"/>
 
     <Button
         android:id="@+id/OnCentrelineButton"
@@ -32,7 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="On Centreline" />
+        android:text="On Centreline"
+        android:onClick="goPPInAlignCentre45"/>
 
     <TextView
         android:id="@+id/AreYouOnCentretext"
@@ -52,7 +55,8 @@
         android:layout_alignParentEnd="true"
         android:background="@android:color/transparent"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/probe_centreline_small" />
+        app:srcCompat="@drawable/probe_centreline_small"
+        android:onClick="goPPInAlignCentre45"/>
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -63,7 +67,8 @@
         android:layout_marginTop="33dp"
         android:background="@android:color/transparent"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/probe_left_centreline_small" />
+        app:srcCompat="@drawable/probe_left_centreline_small"
+        android:onClick="goPPLeftOffset45"/>
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -74,7 +79,8 @@
         android:layout_toEndOf="@+id/LeftOfCentrelineButton"
         android:background="@android:color/transparent"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/probe_right_centreline_small" />
+        app:srcCompat="@drawable/probe_right_centreline_small"
+        android:onClick="goPPRightOffset45"/>
 
 
 

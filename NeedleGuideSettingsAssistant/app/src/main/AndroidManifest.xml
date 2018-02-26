@@ -22,8 +22,8 @@
         <activity
             android:name=".MovingScaleAssistant"
             android:label="@string/title_activity_moving_scale_assistant"
-            android:screenOrientation="portrait"
             android:parentActivityName=".GuideSelect"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -32,8 +32,8 @@
         <activity
             android:name=".FixedScaleAssistant"
             android:label="@string/title_activity_fixed_scale_assistant"
-            android:screenOrientation="portrait"
             android:parentActivityName=".GuideSelect"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -42,8 +42,8 @@
         <activity
             android:name=".EpiduralAssistant"
             android:label="@string/title_activity_epidural_assistant"
-            android:screenOrientation="portrait"
             android:parentActivityName=".GuideSelect"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -52,13 +52,17 @@
         <activity
             android:name=".KeySystemAssistant"
             android:label="@string/title_activity_key_system_assistant"
-            android:screenOrientation="portrait"
             android:parentActivityName=".GuideSelect"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.loughbroughproject.needleguidesettingsassistant.GuideSelect" />
         </activity>
+        <activity
+            android:name=".TargetOffsetYesOrNoR"
+            android:label="@string/title_activity_target_offset_yes_or_no_r"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

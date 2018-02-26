@@ -21,7 +21,7 @@ public class RealTimeOutPlaneAttachGuideStep5 extends Calculator_or_Stepbystep_M
     public void gorealtimewhereistargetoutstep6(View view) {
 
         Intent getrealtimewhereistargetoutstep6 = new Intent(this,
-                RealTimeWhereTargetOutPlaneStep6.class);
+                RealTimeDepthOutCentre.class);
 
         final int result = 1;
 
